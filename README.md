@@ -113,6 +113,7 @@ Before delving into the main analysis, I'll provide some additional visualizatio
 > print(f"t-Statistic: {t_statistic}")
 > print(f"p-Value: {p_value}")
 >
+> #withholded plot visualization
 > plt.scatter(evs_sold, energy_supplied, color='blue', label='Data points')
 > plt.plot(evs_sold, np.poly1d(np.polyfit(evs_sold, energy_supplied, 1))(evs_sold), color='red', label='Regression line')
 > plt.xlabel('EVs Sold')
