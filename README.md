@@ -126,7 +126,7 @@ Before delving into the main analysis, I'll provide some additional visualizatio
 > * t-statistic: **8.23**
 > * p-value: **0.077**
 >
-> In conclusion, The correlation analysis shows a very strong positive correlation between the number of vehicles sold and the percentage of energy used (r = 0.993). However, the p-value is > slightly above the 0.05 threshold, suggesting that while the observed correlation is very high, it is not statistically significant at the 5% level. This might be explained to the small sample size (only 3 years of data).
+> In conclusion, The correlation analysis shows a very strong positive correlation between the number of vehicles sold and the percentage of energy used (r = 0.993). However, the p-value is > slightly above the 0.05 threshold, suggesting that while the observed correlation is very high, it is not statistically significant at the 5% level. This might be explained given the small sample size (only 3 years of data).
 
 ## Data Sources
 
