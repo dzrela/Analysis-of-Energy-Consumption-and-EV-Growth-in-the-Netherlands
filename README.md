@@ -10,7 +10,7 @@ Data Source: **.CSV Files**
 
 Database: **MySQL**
 
-Data Querying and Cleansing: **SQL** & **Excel**
+Data Querying and Cleansing: **SQL**
 
 Statistical Analysis: **Python (numpy & matplotlib)**
 
