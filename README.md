@@ -6,7 +6,7 @@ Utilizing a dataset on [Energy Consumption in the Netherlands](https://www.kaggl
 
 ## Tools and Technologies
 
-Data Source: **.CSV Files**
+Data Source: **[Energy Consumption in the Netherlands](https://www.kaggle.com/datasets/lucabasa/dutch-energy/data)** & **[Electric Vehicle Statistics in the Netherlands](https://www.rvo.nl/sites/default/files/2022-07/Statistics-electric-vehicles-and-charging-in-the-%20Netherlands-up-to-and-including-June-2022.pdf)**
 
 Database: **MySQL**
 
@@ -47,7 +47,7 @@ Regarding the provided columns in each data file, only the following were select
   - `num_connections`: Number of connections in the range of zipcodes (e.g. between zipcode X and Y, electricity is provided to 20 households)
   - `delivery_perc`:  percentage of the net consumption of electricity. The lower, the more energy was given back to the grid. (e.g. a value of 87 represents 13% electricity is returned to grid)
   - `perc_of_active_connections`: percentage of active connections in the zipcode range
-  - `annual_consume`: Annual consume in Kwh
+  - `annual_consume`: Annual consumption in Kwh
 
 Finally, data was collected from [Rijksdienst voor Ondernemend's website](https://www.rvo.nl/sites/default/files/2022-07/Statistics-electric-vehicles-and-charging-in-the-%20Netherlands-up-to-and-including-June-2022.pdf) regarding statistics on EV's.
 
@@ -127,7 +127,7 @@ Before delving into the main analysis, I'll provide some additional visualizatio
 > * t-statistic: **8.23**
 > * p-value: **0.077**
 >
-> In conclusion, The correlation analysis shows a very strong positive correlation between the number of vehicles sold and the percentage of energy used (r = 0.993). However, the p-value is > slightly above the 0.05 threshold, suggesting that while the observed correlation is very high, it is not statistically significant at the 5% level. This might be explained given the small sample size (only 3 years of data).
+> In conclusion, The correlation analysis shows a very strong positive correlation between the number of vehicles sold and the percentage of energy returned back to the grid (r = 0.993). However, the p-value is > slightly above the 0.05 threshold, suggesting that while the observed correlation is very high, it is not statistically significant at the 5% level. This might be explained given the small sample size (only 3 years of data).
 
 ## Data Sources
 
