@@ -4,7 +4,7 @@
 
 Utilizing a dataset on [Energy Consumption in the Netherlands](https://www.kaggle.com/datasets/lucabasa/dutch-energy/data), together with Government data on [Electric Vehicle Statistics in the Netherlands](https://www.rvo.nl/sites/default/files/2022-07/Statistics-electric-vehicles-and-charging-in-the-%20Netherlands-up-to-and-including-June-2022.pdf), I have developed this project to analyze whether there is a correlation regarding EV sales over a three-year period (2018-2020), with changes in the energy that is delivered back to the grid during that same timeframe. This project also serves as a showcase of my Python, SQL, Tableau, and Excel skills.
 
-## Tools and Technologies
+## Languages and Tools
 
 Data Source: **[Energy Consumption in the Netherlands](https://www.kaggle.com/datasets/lucabasa/dutch-energy/data)** & **[Electric Vehicle Statistics in the Netherlands](https://www.rvo.nl/sites/default/files/2022-07/Statistics-electric-vehicles-and-charging-in-the-%20Netherlands-up-to-and-including-June-2022.pdf)**
 
